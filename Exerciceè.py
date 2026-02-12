@@ -2,7 +2,7 @@ def remplacer_par_zero(chaine, n):
     nouvelle_chaine = ""
 
     for i in range(len(chaine)):
-        if (i + 1) % n == 0:  # chaque nème position
+        if (i + 1) % n == 0:
             nouvelle_chaine += "0"
         else:
             nouvelle_chaine += chaine[i]
